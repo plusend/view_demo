@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.plusend.viewdemo.view.MyViewGroupA
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#a7ee8f"
+    tools:context="com.plusend.viewdemo.MainActivity">
+
+    <com.plusend.viewdemo.view.MyViewGroupB
+        android:layout_width="250dp"
+        android:gravity="center"
+        android:layout_height="350dp"
+        android:background="#4aced5">
+
+        <com.plusend.viewdemo.view.MyView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:background="#e6a8a8"/>
+
+    </com.plusend.viewdemo.view.MyViewGroupB>
+
+</com.plusend.viewdemo.view.MyViewGroupA>
+
