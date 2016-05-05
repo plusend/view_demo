@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:background="#a7ee8f"
-    tools:context="com.plusend.viewdemo.MainActivity">
+    tools:context=".activity.MainActivity">
 
     <com.plusend.viewdemo.view.MyViewGroupB
         android:layout_width="250dp"
