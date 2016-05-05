@@ -27,13 +27,13 @@ public class MyView extends View {
 
     @Override
     public boolean dispatchTouchEvent(MotionEvent event) {
-        Logger.d(TAG, "dispatchTouchEvent");
+        Logger.d(TAG, "dispatchTouchEvent === " + event.getAction());
         return super.dispatchTouchEvent(event);
     }
 
     @Override
     public boolean onTouchEvent(MotionEvent event) {
-        Logger.d(TAG, "onTouchEvent");
+        Logger.d(TAG, "onTouchEvent === " + event.getAction());
         return super.onTouchEvent(event);
     }
 }
